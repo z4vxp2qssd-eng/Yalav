@@ -1,18 +1,1 @@
-<!DOCTYPE html> <html> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Yalav</title></head> <body> <h1>Привет — это тестовый сайт Yalav</h1> <p>Работает!</p> </body> </html>
-{
-  "name": "yalav",
-  "version": "1.0.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "vercel-build": "next build"
-  },
-  "dependencies": {
-    "next": "13.4.12",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
-  }
-}
-{ "version": 2, "builds": [ { "src": "index.html", "use": "@vercel/static" } ], "routes": [ { "handle": "filesystem" }, { "src": "/(.*)", "dest": "/index.html" } ] }
+<!DOCTYPE html> <html lang="ru"> <head> <meta charset="utf-8" /> <meta name="viewport" content="width=device-width,initial-scale=1" /> <title>Yalav — тест</title> <style>body{font-family:Arial,Helvetica,sans-serif;padding:40px;color:#222;background:#fff}</style> </head> <body> <h1>Yalav — это тестовый сайт</h1> <p>Если вы видите эту страницу — деплой работает.</p> <p>Замените содержимое index.html на вашу реальную страницу (HTML/CSS/JS) или загрузите папку сборки.</p> </body> </html>
